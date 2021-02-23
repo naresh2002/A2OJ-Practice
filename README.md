@@ -5,4 +5,4 @@ Naming format :
 	ID #space# Problem Name	(eg. 1 Hello World)
 
 Commit Description format :
-	ContestName_ProblemNumber	(eg. 123_A)
+	Added ContestName_ProblemNumber	(eg. Added 123_A)
