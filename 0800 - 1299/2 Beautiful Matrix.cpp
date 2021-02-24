@@ -20,7 +20,7 @@ int main()
 				j1 = j;
 			}
 		}
-	}
+	} 
 	cout<<abs(i1-2) + abs(j1-2);
 	return 0;
 }
