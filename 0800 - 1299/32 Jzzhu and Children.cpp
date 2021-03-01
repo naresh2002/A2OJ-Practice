@@ -32,3 +32,33 @@ int main()
 	cout<<v[0].second + 1;
     return 0;
 }
+/* //---- using queue
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n,m,arr[101],i,j = 0;
+    cin>>n>>m;
+    queue< pair< long long int , long long int > > q;//queue ke andar element aur index dono push karna tha isliye , queue ko aise declare kiya
+    for(i=1;i<=n;i++)
+    {
+        cin>>arr[i];
+        q.push({arr[i],i});// queue me array element , index push kiya
+    }
+    while(q.size()>1)// while loop tab tak chalaya jab tak queue me sirf ek element nahi bach jaata, agr ek element bachega toh uska index print kardenge
+	{
+		if(q.front().first<=m) // queue ke first element ke array ki value <= m hogi , toh queue se pop kardenge
+		{
+			q.pop();
+		}
+		else // nahi toh uss me se m minus karke push kardenge queue me, aur first element of queue ko pop kardenge
+		{
+			q.push({q.front().first-m,q.front().second});
+			q.pop();
+		}
+	}
+	cout<<q.front().second;// ek element bacha queue me , isliye uska index print kardenge
+	return 0;
+}
+*/
