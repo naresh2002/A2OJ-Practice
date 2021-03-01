@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std; 
 int main()
 {
 	ios::sync_with_stdio(true);
@@ -8,5 +8,6 @@ int main()
 	
   
   
+
 	return 0;
 }
