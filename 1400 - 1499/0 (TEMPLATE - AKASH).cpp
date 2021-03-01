@@ -6,7 +6,8 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 	
-  
-  
+	
+	
+	
 	return 0;
 }
