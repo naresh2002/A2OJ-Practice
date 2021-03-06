@@ -1,3 +1,4 @@
+  
 #include<bits/stdc++.h>
 #define PB push_back
 #define int long long
@@ -8,9 +9,7 @@ using namespace std;
 
 
 int32_t main () {
-  int n;
-  cin >> n;
-  cout << 0 << " " << 0 << " " << n;
+  _
   
   return 0;
 }

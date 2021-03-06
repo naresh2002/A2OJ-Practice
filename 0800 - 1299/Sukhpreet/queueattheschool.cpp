@@ -20,4 +20,3 @@ int main()
 	cout<<arr;
 	return 0;
 }
-
