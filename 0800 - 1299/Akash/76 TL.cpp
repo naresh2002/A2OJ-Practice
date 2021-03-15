@@ -69,3 +69,35 @@ int main()
 	}
     return 0;
 }
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	ios::sync_with_stdio(true);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	
+	int n,m;
+	cin>>n>>m;
+	int a[n],b[m];
+	for(int i=0;i<n;i++)
+	{
+		cin>>a[i];
+	}
+	for(int i=0;i<m;i++)
+	{
+		cin>>b[i];
+	}
+	int max1 = *max_element(a,a+n);
+	int min1 = *min_element(a,a+n);
+	int x1 = max(2*min1,max1);
+	
+	if(x1 < *min_element(b,b+m))
+	cout<<x1;
+	else
+	cout<<-1;
+    return 0;
+}
+*/
